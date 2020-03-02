@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Meal Selection-Subscription
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+
+
+<div class="page-container">
+
+  <div class="topnav" id="myTopnav">
+  <a href="#" class="activ"><img src="images/New_cavilogo_V2_white text@1X.png"></a>
+  <a href="#ON THE MENU">ON THE MENU</a>
+  <a href="#HOW IT WORKS">HOW IT WORKS</a>
+  <a href="#PRICING">PRICING</a>
+  <a href="#GIFTS">GIFTS</a>
+  <a href="#ESSENTIALS">ESSENTIALS</a>
+  <a href="#OPEN-BOX">OPEN-BOX</a>
+  <a href="#login" id="login">LOG IN</a>
+  <button id="none"><a href="#SIGN UP">SIGN UP</a></button>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="heading-container">
+  <h1>CHOOSE YOUR MENU</h1>
+  <P>(You can choose weakly/monthly plan or you canopt for one time order)</P>
+</div>
+
+
+<div class="row-four">
+
+  <div class="column-four-one">
+    <h1 id="cfoh1">2-SERVING <br>CLASSIC</h1>
+    <p id="p-on">includes veg & non-veg meals</p>
+    <p id="p-one">No of servings</p>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">4</button>
+  </div>
+
+    <p>Recipe per week</p>
+
+  <div class="tab-one">
+    <button class="tablinks-one" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">3</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p id="cfoh2"><span>&#x24;9.99</span> per serving</p>
+    <p>free shipping</p>
+    <h1 id="cfoh3">59.99</h1>
+    <p id="cfoh4">Weekly Total</p>
+    <button id="cfoh5">SELECT</button>
+
+  </div>
+
+  <div class="column-four-two">
+
+    <h1 id="cfth1">LO-CAL</h1>
+    <p id="p-tw">For a healthy lifestyle&#8764;Easy-To-Cook Recipes</p>
+    <p id="p-two">No of servings</p>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">4</button>
+  </div>
+
+    <p>Recipe per week</p>
+
+  <div class="tab-one">
+    <button class="tablinks-one" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">3</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p id="cfoh2"><span>&#x24;9.99</span> per serving</p>
+    <p>free shipping</p>
+    <h1 id="cfoh3">59.99</h1>
+    <p id="cfoh4">Weekly Total</p>
+    <button id="cfoh5">SELECT</button>
+
+  </div>
+</div>
+
+
+<div class="row-five">
+
+ <div class="column-five-one">
+    <h1 id="cfth1">FAMILY</h1>
+    <p id="p-tw">Best recipes for family dinners and Small gathrings</p>
+    <p id="p-two">No of servings</p>
+  <div class="tab-five-one">
+    <button class="tablinks" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p>Recipe per week</p>
+
+  <div class="tab-five-two">
+    <button class="tablinks-one" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">3</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p id="cfoh2"><span>&#x24;9.99</span> per serving</p>
+    <p>free shipping</p>
+    <h1 id="cfoh3">59.99</h1>
+    <p id="cfoh4">Weekly Total</p>
+    <button id="cfoh5">SELECT</button>
+
+  </div>
+
+  <div class="column-five-two">
+    <h1 id="cfth1">VEGETARIAN</h1>
+    <p id="p-tw">Meat-less meals&#8764;Best seasonal produce</p>
+    <p id="p-two">No of servings</p>
+  <div class="tab-five-one">
+    <button class="tablinks" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p>Recipe per week</p>
+
+  <div class="tab-five-two">
+    <button class="tablinks-one" onclick="openCity(event, 'London')">2</button>
+    <button class="tablinks active" onclick="openCity(event, 'Paris')">3</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">4</button>
+    <button class="tablinks-one" onclick="openCity(event, 'Paris')">6</button>
+  </div>
+
+    <p id="cfoh2"><span>&#x24;9.99</span> per serving</p>
+    <p>free shipping</p>
+    <h1 id="cfoh3">59.99</h1>
+    <p id="cfoh4">Weekly Total</p>
+    <button id="cfoh5">SELECT</button>
+
+  </div>
+</div>
+
+<div class="paragraph-two">
+    <p>DON'T WANT WEEKLY SUBSCRIPTION?</p>
+    <p><span>Click here </span>to <span>skip </span>for one time delivery</p>
+</div>
+
+<div class="row-three">
+  <div class="column-three-one">
+      <h3>Most Reliable in Pakistan</h3>
+      <img src="images/New.png" id="new">
+      <h1>OPEN-BOX<br><span>DELIVERY</span></h1>
+      <h3>Vagetable . Fruits . Dairy</h3>
+      <button><img src="images/Layer 0000.png">VIEW BOX OPTION</button>
+  </div>
+
+  <div class="column-three-two">
+      <img src="images/Layer 16.png">
+  </div>
+
+  <div class="column-three-three">
+      <div class="column-three-three-one"><img src="images/Your Daily Grocery Shopping.png"></div>
+        <div class="column-three-three-two">
+          <p>With collaboration</p>
+          <img src="images/my Daily Box.png">
+        </div>
+      </div>
+  </div>
+
+<div class="image-head">
+      <img src="images/conversation.png">
+      <h1>QUESTIONS ABOUT OUR PLANS </h1>
+</div>
+
+<div class="row-one">
+  <div class="column-two-one">
+    <p><span>Do you accomodate specific diets or allergies?</span><br><br>We accomodate specfic a varity of dietry prefrence e.g vageterion, pescetanas, or 11 you don't eat red meat, fish, shell fish, lamb-personlazie your menue each week based on your prferrence all of our boxes are recomend odering Blue Apron if you have a serious food allergy.<br><br><br><span>When do you deliver?</span><br><br>We deliver all 7 days of the week in most location.<br><br><br><span>Whare do you deliver?</span><br><br>We deliver to all location in the countinental United states. see if you deliver to you</p>
+  </div>
+  <div class="column-two-one">
+    <p><span>Where do you source your ingredients?</span><br><br>The quailty of freshness of our ingredients are ingredib-<br>ly important to us , so we work directly with artisonal purveyors and hundred of family run farms that's support  sustainable practice.<br><br><br><span>Can i skip any delivery for a particular week?</span><br><br>Yes,you can skip any delivery untill the other is processed.You can manage your deliveries directly in your account.<br><br><br><span>Do i need to be home to accept my delivery?</span><br><br>Our refrigratod boxes are packed with ice packs and insulted linears to ensure your ingredientswill stay fresh for the delivery day, even if your not at the home to accept.</p>
+  </div>
+</div>
+
+<div class="question">
+  <p>Have other Question?<span>Check out our faQ<small>s</small></span></p>
+</div>
+
+<div class="row">
+   <div class="row-container">
+    <div class="column-one">
+        
+        <div class="column-one-img">
+          <img src="images/Layer 15@1X.png">
+        </div>
+
+        <div class="column-one-paragraph">
+          <p>FROM THE BLOG</p>
+          <p>The "Classic Beef" Burger</p>
+        </div>
+
+    </div>
+
+    <div class="column-two" >
+          
+      <p>FOLLOW US</p>
+      <div class="social">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+      <a href="#" class="fa fa-youtube-play"></a>
+      </div>
+    </div>
+
+    <div class="column-three" >
+
+          <p>EXPLORE WHAT'S MORE</p>
+          <form class="example" action="action_page.php">
+          <input type="text" placeholder="Email Address" name="search" id="input">
+          <button type="submit">Go</button>
+          <P>Sign up for offer recipes, new and more</P>
+         </form>
+
+    </div>
+  </div>
+</div>
+
+
+<!--blue footer-->
+
+<div class="footer-top">
+  <div class="footer-top-container">
+    <div class="blue-boxx" id="blue-boxx-a">
+            
+      <ul>  
+        <li><a href="#">On The Menu</a></li>
+        <li><a href="#">How its Works</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">Essentials</a></li>
+        <li><a href="#">Gifts</a></li>
+      </ul>
+            
+    </div>
+
+          
+    <div class="blue-boxx" id="blue-boxx-b">
+
+      <ul>           
+        <li><a href="#">Our Recipe Book</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#"></a>Our Suppliers</li>
+        <li><a href="#"></a>Sefty & Prevention</li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+
+    </div>
+
+    <div class="blue-boxx" id="blue-boxx-c">
+
+      <ul>
+        <li><a href="#">Contacts</li>
+        <li><a href="#">Sign Up</li>
+        <li><a href="#">Coustomer Helpline</li>
+        <li><a href="#">+92300CAVIAR1</li>
+      </ul>
+
+    </div>
+
+
+    <div class="blue-boxx"  id="blue-boxx-d">
+
+      <ul   id="abc">
+        <li><img src="images/CVR_logo_Phtshp_white n orange caviars@1X.png"></li>
+        <div  id="text">
+        <li>ALL RIGHTS RESERVED CAVIAR KITCHEN, 2019-2020</li>
+        </div>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script type="text/javascript">
+  
+  function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+  <script type="text/javascript">
+    function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+  </script>
+
+
+  <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+  <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("tab");
+var btns = header.getElementsByClassName("tablinks");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+
+</body>
+</html>
